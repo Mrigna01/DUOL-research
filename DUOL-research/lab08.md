@@ -83,7 +83,6 @@ Run from this folder:
 
 ```powershell
 python .\lab08_comps.py
-python .\lab08_validate.py
 ```
 
 Actual [calculator output](./lab08_evidence/calculator-output.txt):
@@ -119,13 +118,13 @@ There is **no admitted peer to validate by hand**. The following calculations di
 | Saved DCF | Independently compounded/discounted FCFF = **$251.992040357** | Matches `dcf.py` $251.9920 and saved $251.99 |
 | Saved sensitivity | All nine cells reproduced; minimum **$166.53**, maximum **$268.11** | Matches `Lab 6.md` |
 
-[`lab08_validate.py`](./lab08_validate.py) checks Nasdaq date rows, target inputs, invalid denominators and empty-set behavior, then independently recomputes the DCF using Decimal arithmetic. [Validation output](./lab08_evidence/validation-output.txt) records passing checks. Diagnostic calls do not admit excluded candidates.
+A separate local validation script checked Nasdaq date rows, target inputs, invalid denominators and empty-set behavior, then independently recomputed the DCF using Decimal arithmetic. This optional checking script is not part of the submission. [Validation output](./lab08_evidence/validation-output.txt) records passing checks. Diagnostic calls do not admit excluded candidates.
 
 ## 8. Peer-removal / sensitivity test
 
 **Prediction saved before the first Lab 08 run:** both candidates fail admission. With zero admitted peers, the calculator should return no estimate. There is no admitted peer to remove; rerunning the empty set should still return no estimate. No excluded company will be inserted to manufacture a sensitivity result.
 
-**Observed:** initial and repeat runs return no estimate; the validator checks identical output. No actual peer was removed, so there is **no numerical removal experiment or dollar change** to report. Calling the change $0 would incorrectly imply that a value existed.
+**Observed:** initial and repeat runs return no estimate; the local validation confirmed identical output. No actual peer was removed, so there is **no numerical removal experiment or dollar change** to report. Calling the change $0 would incorrectly imply that a value existed.
 
 Information is lost at admission: the investigation supplies operating comparisons but no transferable market multiple. Dependence on peer eligibility is clear, although numerical sensitivity cannot be measured. In a genuine single-peer case, removal would eliminate the sole reference; that is a methodological explanation, not an experiment claimed here.
 
