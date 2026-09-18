@@ -1,0 +1,11 @@
+PASS Nasdaq DUOL 2026-09-10 close: $145.16
+PASS Nasdaq COUR 2026-09-10 close: $5.23
+DUOL EPS cross-check: 414.065 / 48.308 = 8.571354641, reported $8.57
+DUOL own P/E only (not peer valuation): 145.16 / 8.57 = 16.938156359x
+COUR raw signed quotient only: 5.23 / -0.31 = -16.870967742; not meaningful
+PASS negative EPS and missing price rejected; excluded candidates never admitted
+PASS empty-set rerun: no estimate both times; no actual peer-removal experiment possible
+PASS saved DCF: $251.992040357; sensitivity $166.53-$268.11
+DCF terminal PV / enterprise value: 80.073757201%
+Conditional DCF upside versus verified close: 73.596060%
+PASS all checks; no peer range, median, or sensitivity price exists

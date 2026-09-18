@@ -1,0 +1,20 @@
+Target: Asbury Automotive (ABG)
+Target market price: $243.03
+Price date: December 31, 2024
+EPS basis: FY2024 total GAAP diluted EPS
+
+Peer P/E multiples
+  AutoNation (AN): 10.037825x
+  Group 1 Automotive (GPI): 11.450149x
+
+Valuation
+  Minimum peer P/E: 10.037825x
+  Median peer P/E:  10.743987x
+  Maximum peer P/E: 11.450149x
+  Minimum implied price: $215.81
+  Median implied price:  $231.00
+  Maximum implied price: $246.18
+
+Peer-removal sensitivity
+  Remove AN: $246.18; change +$15.18
+  Remove GPI: $215.81; change -$15.18

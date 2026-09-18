@@ -1,0 +1,37 @@
+FCFF Year 1: 414.4876
+FCFF Year 2: 489.0954
+FCFF Year 3: 567.3506
+FCFF Year 4: 641.1062
+FCFF Year 5: 705.2168
+Present value of five explicit FCFF: 2171.4955
+Terminal value at Year 5: 13138.4679
+Present value of terminal value: 8726.1710
+Enterprise value: 10897.6665
+Equity value: 12173.2315
+Value per diluted share: 251.9920
+Present value of terminal value as share of enterprise value: 0.8007
+
+Sensitivity grid: value per diluted share ($)
+WACC / Terminal growth | 2.0%    | 3.0%    | 4.0%
+-----------------------+---------+---------+--------
+9.0%                   | $209.01 | $233.63 | $268.11
+10.0%                  | $185.10 | $202.90 | $226.64
+11.0%                  | $166.53 | $179.89 | $197.06
+
+Reverse DCF - training inputs: uniform shift to all five explicit growth rates
+Target share price: $30.00
+Search bracket: -20.00% to +10.00%
+Inputs held fixed: starting FCFF=$100.000m; base growth rates=['8.00%', '6.00%', '5.00%', '4.00%', '3.00%']; WACC=10.0000%; terminal growth=3.00%; non-operating cash=$50.000m; debt=$300.000m; diluted shares=50.000m
+Solved uniform growth shift: +1.777948%
+Shifted growth rates: ['9.777948%', '7.777948%', '6.777948%', '5.777948%', '4.777948%']
+DCF value per diluted share at solution: $30.000000
+Interpretation: implied growth shift for the stated fixed inputs; not proof of mispricing.
+
+Reverse DCF - Duolingo company inputs: uniform shift to all five explicit growth rates
+Target share price: $145.16
+Search bracket: -20.00% to +10.00%
+Inputs held fixed: starting FCFF=$360.424m; base growth rates=['15.00%', '18.00%', '16.00%', '13.00%', '10.00%']; WACC=8.5286%; terminal growth=3.00%; non-operating cash=$1275.565m; debt=$0.000m; diluted shares=48.308m
+Solved uniform growth shift: -15.077219%
+Shifted growth rates: ['-0.077219%', '2.922781%', '0.922781%', '-2.077219%', '-5.077219%']
+DCF value per diluted share at solution: $145.160000
+Interpretation: implied growth shift for the stated fixed inputs; not proof of mispricing.

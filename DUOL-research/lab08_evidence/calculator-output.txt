@@ -1,0 +1,12 @@
+Target: Duolingo (DUOL)
+Target market price: $145.16
+Price date: September 10, 2026 (regular-session close; Nasdaq)
+EPS basis: FY2025 total GAAP diluted EPS, year ended December 31, 2025
+
+Peer P/E multiples
+
+Valuation
+  No usable peers; no estimate (not zero dollars).
+
+Peer-removal sensitivity
+  No admitted peers to remove; removal experiment is not applicable.
