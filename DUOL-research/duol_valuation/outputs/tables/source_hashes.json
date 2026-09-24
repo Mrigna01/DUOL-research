@@ -1,0 +1,72 @@
+[
+  {
+    "file": "data\\raw\\annual_inline_xbrl.json",
+    "sha256": "19e1301a167dda20bb5de57a94f22ed7f18231b0a76221ad24159449d9ee2657",
+    "bytes": 159442
+  },
+  {
+    "file": "data\\raw\\companyfacts.json",
+    "sha256": "edf9df12643a1edb6e0110d4d2ae26800b0af48cd933e258001d9d46f44939fa",
+    "bytes": 965205
+  },
+  {
+    "file": "data\\raw\\DUOL-daily.json",
+    "sha256": "b0134cbfdff30cc9166f49c9eeef6bcbf2f690d6bd432f8c14e01f53f86c4cff",
+    "bytes": 3472
+  },
+  {
+    "file": "data\\raw\\DUOL-prices.json",
+    "sha256": "bf60a2fdf49b7554763d20c0e4adfb3d9e94441796a7590092f0b71c3c7305a2",
+    "bytes": 7815
+  },
+  {
+    "file": "data\\raw\\lab-09-proforma-build.md",
+    "sha256": "56b871ea69dbf3f9330771bec0ad9cf391fe298f5955cb6785358331a08bcb0e",
+    "bytes": 7367
+  },
+  {
+    "file": "data\\raw\\lab-10-proforma-your-company.md",
+    "sha256": "4add8cc190e6a0713e1a6b043398f2075b10d3b7fa4089f1e7329ffc5f908fdd",
+    "bytes": 5704
+  },
+  {
+    "file": "data\\raw\\lab-11-proforma-what-if.md",
+    "sha256": "aee3e381c4a21ff7662d75e8b07f4b3c10a121c0455cdb5be5486549620c77df",
+    "bytes": 5266
+  },
+  {
+    "file": "data\\raw\\lab-12-proforma-present.md",
+    "sha256": "e929c191cfeb03d068f93fb855082416f5d6a784b2c13752eea76eed8ab50914",
+    "bytes": 5541
+  },
+  {
+    "file": "data\\raw\\nasdaq-price.json",
+    "sha256": "bdfb6ace1afd61e39726579debc6fa01e9df40c2e5effac061cbd6e9b63cae41",
+    "bytes": 491
+  },
+  {
+    "file": "data\\raw\\pro-forma-abg-tutorial.md",
+    "sha256": "99bdc7d85f599d8c46ab0f54f73159b9b69636757ddf578a4b3d87f0da8b882a",
+    "bytes": 3274
+  },
+  {
+    "file": "data\\raw\\q2-2026-letter.html",
+    "sha256": "84806fc2c3996156b594f192b2c933dbe031aad184ad366af09e45d7360c8100",
+    "bytes": 265608
+  },
+  {
+    "file": "data\\raw\\q2-2026-letter.txt",
+    "sha256": "ebdbcce7084b4e2dece873667d541ff3a7e1a5ec9e31a1ce4940b22760971dec",
+    "bytes": 38115
+  },
+  {
+    "file": "data\\raw\\source_notes.md",
+    "sha256": "926922426eab200d4b35dc6e2b7a502309d020a0f30822d4bdd469632e0e0c3b",
+    "bytes": 4583
+  },
+  {
+    "file": "data\\raw\\SPY-prices.json",
+    "sha256": "d7b987aab08927f9da69668cf9dc21f4b6910887ba25d527cbdc710b0653f484",
+    "bytes": 14682
+  }
+]

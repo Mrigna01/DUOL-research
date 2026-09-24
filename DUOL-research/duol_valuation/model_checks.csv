@@ -1,0 +1,121 @@
+check_name,year,value,tolerance,status,notes
+Historical balance,2023,0.0,0.005,PASS,USD millions
+Historical gross profit,2023,0.0,0.005,PASS,USD millions
+Historical EBIT,2023,2.842170943040401e-14,0.005,PASS,USD millions
+Historical net income,2023,0.0,0.005,PASS,USD millions
+Historical assets sum,2023,0.0,0.005,PASS,
+Historical liabilities sum,2023,-5.684341886080802e-14,0.005,PASS,
+Historical balance,2024,1.1368683772161603e-13,0.005,PASS,USD millions
+Historical gross profit,2024,0.0,0.005,PASS,USD millions
+Historical EBIT,2024,2.842170943040401e-14,0.005,PASS,USD millions
+Historical net income,2024,0.0,0.005,PASS,USD millions
+Historical assets sum,2024,0.0,0.005,PASS,
+Historical liabilities sum,2024,0.0,0.005,PASS,
+Historical cash bridge,2024,7.460698725481052e-14,0.005,PASS,
+Historical balance,2025,-2.2737367544323206e-13,0.005,PASS,USD millions
+Historical gross profit,2025,-1.1368683772161603e-13,0.005,PASS,USD millions
+Historical EBIT,2025,0.0,0.005,PASS,USD millions
+Historical net income,2025,0.0,0.005,PASS,USD millions
+Historical assets sum,2025,0.0,0.005,PASS,
+Historical liabilities sum,2025,-1.1368683772161603e-13,0.005,PASS,
+Historical cash bridge,2025,-1.3855583347321954e-13,0.005,PASS,
+Balance sheet,2026,-2.2737367544323206e-13,1e-07,PASS,
+Assets total,2026,-4.547473508864641e-13,1e-07,PASS,
+Liabilities total,2026,-2.2737367544323206e-13,1e-07,PASS,
+Cash reconciliation,2026,1.4210854715202004e-14,1e-07,PASS,
+PPE roll-forward,2026,-2.6645352591003757e-15,1e-07,PASS,
+Intangibles roll-forward,2026,8.881784197001252e-16,1e-07,PASS,
+Equity roll-forward,2026,1.4210854715202004e-14,1e-07,PASS,
+Income statement,2026,4.263256414560601e-14,1e-07,PASS,
+CFO construction,2026,0.0,1e-07,PASS,
+UFCF construction,2026,0.0,1e-07,PASS,
+NWC roll-forward,2026,0.0,1e-07,PASS,
+Debt roll-forward,2026,0.0,1e-07,PASS,
+Minimum cash,2026,1187.5734941060887,1e-07,PASS,No assumed financing plug
+No invalid values,2026,1.0,1e-07,PASS,
+Economically valid balances,2026,4.707345624410664e-14,1e-07,PASS,Losses and negative working capital are allowed
+Balance sheet,2027,-6.821210263296962e-13,1e-07,PASS,
+Assets total,2027,-4.547473508864641e-13,1e-07,PASS,
+Liabilities total,2027,-1.1368683772161603e-13,1e-07,PASS,
+Cash reconciliation,2027,7.105427357601002e-15,1e-07,PASS,
+PPE roll-forward,2027,-1.7763568394002505e-15,1e-07,PASS,
+Intangibles roll-forward,2027,1.7763568394002505e-15,1e-07,PASS,
+Equity roll-forward,2027,1.4921397450962104e-13,1e-07,PASS,
+Income statement,2027,0.0,1e-07,PASS,
+CFO construction,2027,-5.684341886080802e-14,1e-07,PASS,
+UFCF construction,2027,0.0,1e-07,PASS,
+NWC roll-forward,2027,0.0,1e-07,PASS,
+Debt roll-forward,2027,0.0,1e-07,PASS,
+Minimum cash,2027,1558.641194071096,1e-07,PASS,No assumed financing plug
+No invalid values,2027,1.0,1e-07,PASS,
+Economically valid balances,2027,4.707345624410664e-14,1e-07,PASS,Losses and negative working capital are allowed
+Balance sheet,2028,-4.547473508864641e-13,1e-07,PASS,
+Assets total,2028,-4.547473508864641e-13,1e-07,PASS,
+Liabilities total,2028,-1.1368683772161603e-13,1e-07,PASS,
+Cash reconciliation,2028,2.4158453015843406e-13,1e-07,PASS,
+PPE roll-forward,2028,1.0658141036401503e-14,1e-07,PASS,
+Intangibles roll-forward,2028,0.0,1e-07,PASS,
+Equity roll-forward,2028,2.4158453015843406e-13,1e-07,PASS,
+Income statement,2028,0.0,1e-07,PASS,
+CFO construction,2028,-2.842170943040401e-14,1e-07,PASS,
+UFCF construction,2028,0.0,1e-07,PASS,
+NWC roll-forward,2028,0.0,1e-07,PASS,
+Debt roll-forward,2028,0.0,1e-07,PASS,
+Minimum cash,2028,2019.82310984675,1e-07,PASS,No assumed financing plug
+No invalid values,2028,1.0,1e-07,PASS,
+Economically valid balances,2028,4.707345624410664e-14,1e-07,PASS,Losses and negative working capital are allowed
+Balance sheet,2029,-9.094947017729282e-13,1e-07,PASS,
+Assets total,2029,0.0,1e-07,PASS,
+Liabilities total,2029,0.0,1e-07,PASS,
+Cash reconciliation,2029,-5.400124791776761e-13,1e-07,PASS,
+PPE roll-forward,2029,-3.552713678800501e-15,1e-07,PASS,
+Intangibles roll-forward,2029,3.552713678800501e-15,1e-07,PASS,
+Equity roll-forward,2029,2.842170943040401e-14,1e-07,PASS,
+Income statement,2029,5.684341886080802e-14,1e-07,PASS,
+CFO construction,2029,-8.526512829121202e-14,1e-07,PASS,
+UFCF construction,2029,0.0,1e-07,PASS,
+NWC roll-forward,2029,0.0,1e-07,PASS,
+Debt roll-forward,2029,0.0,1e-07,PASS,
+Minimum cash,2029,2574.250978275742,1e-07,PASS,No assumed financing plug
+No invalid values,2029,1.0,1e-07,PASS,
+Economically valid balances,2029,4.707345624410664e-14,1e-07,PASS,Losses and negative working capital are allowed
+Balance sheet,2030,-4.547473508864641e-13,1e-07,PASS,
+Assets total,2030,0.0,1e-07,PASS,
+Liabilities total,2030,-2.2737367544323206e-13,1e-07,PASS,
+Cash reconciliation,2030,8.526512829121202e-14,1e-07,PASS,
+PPE roll-forward,2030,1.4210854715202004e-14,1e-07,PASS,
+Intangibles roll-forward,2030,-7.105427357601002e-15,1e-07,PASS,
+Equity roll-forward,2030,-2.2737367544323206e-13,1e-07,PASS,
+Income statement,2030,1.1368683772161603e-13,1e-07,PASS,
+CFO construction,2030,5.684341886080802e-14,1e-07,PASS,
+UFCF construction,2030,0.0,1e-07,PASS,
+NWC roll-forward,2030,0.0,1e-07,PASS,
+Debt roll-forward,2030,0.0,1e-07,PASS,
+Minimum cash,2030,3207.3850764994204,1e-07,PASS,No assumed financing plug
+No invalid values,2030,1.0,1e-07,PASS,
+Economically valid balances,2030,4.707345624410664e-14,1e-07,PASS,Losses and negative working capital are allowed
+Valid assumption: accrued_ratio,all,1.0,1e-07,PASS,
+Valid assumption: ap_ratio,all,1.0,1e-07,PASS,
+Valid assumption: ar_ratio,all,1.0,1e-07,PASS,
+Valid assumption: buybacks,all,1.0,1e-07,PASS,
+Valid assumption: capex_ratio,all,1.0,1e-07,PASS,
+Valid assumption: da_ratio,all,1.0,1e-07,PASS,
+Valid assumption: deferred_cost_ratio,all,1.0,1e-07,PASS,
+Valid assumption: deferred_revenue_ratio,all,1.0,1e-07,PASS,
+Valid assumption: diluted_shares,all,1.0,1e-07,PASS,
+Valid assumption: ga_ex_sbc,all,1.0,1e-07,PASS,
+Valid assumption: gross_margin,all,1.0,1e-07,PASS,
+Valid assumption: growth,all,1.0,1e-07,PASS,
+Valid assumption: investment_yield,all,1.0,1e-07,PASS,
+Valid assumption: minimum_cash,all,1.0,1e-07,PASS,
+Valid assumption: option_proceeds,all,1.0,1e-07,PASS,
+Valid assumption: ppe_capex_share,all,1.0,1e-07,PASS,
+Valid assumption: prepaid_ratio,all,1.0,1e-07,PASS,
+Valid assumption: rd_ex_sbc,all,1.0,1e-07,PASS,
+Valid assumption: sbc_ratio,all,1.0,1e-07,PASS,
+Valid assumption: sm_ex_sbc,all,1.0,1e-07,PASS,
+Valid assumption: tax_rate,all,1.0,1e-07,PASS,
+Valid assumption: terminal_growth,all,1.0,1e-07,PASS,
+Valid assumption: wacc,all,1.0,1e-07,PASS,
+Valid assumption: withholding_ratio,all,1.0,1e-07,PASS,
+WACC > terminal growth,terminal,0.05276376244240655,1e-07,PASS,

@@ -1,0 +1,2 @@
+,valuation_date,market_price,reported_basic_shares,market_equity,diluted_shares,diluted_market_equity,traditional_debt,equity_weight,debt_weight,beta,risk_free_rate,erp,cost_of_equity,pretax_cost_of_debt,normalized_tax_rate,aftertax_cost_of_debt,wacc,input_date,debt_cost_note
+0,2026-09-21,149.42,46.7,6977.914,50.7,7575.594,0.0,1.0,0.0,0.8517817015074046,0.0475,0.0414,0.08276376244240655,0.0,0.24,0.0,0.08276376244240655,2026-09-01,"Not applicable: no traditional debt; zero contribution, not a quoted borrowing rate"

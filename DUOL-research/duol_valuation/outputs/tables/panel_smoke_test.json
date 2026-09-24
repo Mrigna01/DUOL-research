@@ -1,0 +1,18 @@
+[
+  {
+    "move": "base",
+    "value_per_share": 136.88914036795543,
+    "market_price": 149.42,
+    "terminal_share": 0.8434739796839138,
+    "checks": "ALL 120 REQUIRED CHECKS PASSED\nVALUATION ENABLED",
+    "all_pass": true
+  },
+  {
+    "move": "gross margin +1pp",
+    "value_per_share": 142.17808717437606,
+    "market_price": 149.42,
+    "terminal_share": 0.8424709695807787,
+    "checks": "ALL 120 REQUIRED CHECKS PASSED\nVALUATION ENABLED",
+    "all_pass": true
+  }
+]

@@ -1,0 +1,22 @@
+# Source and retrieval record
+
+Research date: 2026-09-22. Valuation date: 2026-09-21 (latest completed close).
+
+- Existing annual filing: `../../../lab08_evidence/duol-2025-10k.html`, SEC accession 0001628280-26-012494. Original PDF `../../../DUOL-10-K.pdf`. The local HTML supplied the annual statement and capex cross-check; derived searchable text is saved here. No raw parent file was changed.
+- `companyfacts.json`: https://data.sec.gov/api/xbrl/companyfacts/CIK0001562088.json — includes FY2023–2025 and H1 2026. Extraction matches both start/end, filings available by valuation date, and annual forms for annual comparatives. Every selected tag has an accession/date in processed/source_ledger.csv. Companyfacts is not a substitute for verifying economic meanings in the filing.
+- FY2024 filing https://www.sec.gov/Archives/edgar/data/1562088/000156208825000042/duol-20241231.htm — web reader inspected FY2023 comparatives, subscription revenue Note5 and MD&A user/bookings tables. Direct raw HTTP returned403, explicitly not described as a successful download.
+- Interim filing https://www.sec.gov/Archives/edgar/data/1562088/000162828026053603/duol-20260630.htm — web reader inspected H1 cash flow pp9–10 and EPS Note11. Direct raw HTTP returned403. H1 facts reproduced by SEC API and shareholder letter.
+- `q2-2026-letter.html`: https://www.sec.gov/Archives/edgar/data/1562088/000162828026053299/q2fy26duolingo6-30x26share.htm — successful download. Guidance p10: revenue1207m, bookings1285m, gross margin71.6%, SBC15%, tax23–25%, grant dilution3.5–4% before repurchases. Adjusted EBITDA320m /26.5% is used only as a reasonableness comparison; GAAP expense assumptions are judgment. Shares50.7m are the latest point estimate on p11, distinct from weighted-average diluted shares50.080m for H1.
+- Annual basic shares45.773/43.504/41.451m: FY2025 10-K Note13 XBRL contexts c158/c159/c160. Companyfacts omits these dimensional basic-share facts; values are taken directly from filing. Annual diluted48.308/47.101/46.522m are independent fields.
+- Annual subscription revenue873.442/607.531/404.684m, bookings1158.425/870.601/622.181m, subscription bookings996.268/730.737/495.497m: annual MD&A and Note5. MAU/DAU/paid counts are Q4 average/Q4 average/year end, respectively.
+- Annual software/intangible cash purchases9.303/9.024/10.493m: FY2025 cash-flow statement p86. The generic PaymentsForSoftware field does not provide the full annual line; manual source extraction is intentional. Capex includes both this and PPE purchases.
+- Historical cash-flow increases in deferred fees22.501/26.231/18.890m: annual cash-flow statement. FY2023–2025 no cash repurchases; net settlement tax withholding is distinct from a repurchase program. H1 2026 actual repurchases69.603m; cumulative through Aug1 approximately71.9m, producing an approximate post-H1 cash adjustment2.297m.
+- `DUOL-prices.json`, `SPY-prices.json`: Yahoo chart API, range10y, interval1mo. Monthly timestamps are period starts; the close is that month's last trading close. Retain August2021–August2026; drop incomplete September. Both raw and adjusted closes are retained. 61 prices →60 returns. No padded pre-IPO observations.
+- `DUOL-daily.json`: Yahoo range1mo, interval1d. September21 close149.419998 rounds to149.42. September22 is an intraday value and is not selected.
+- `nasdaq-price.json`: https://api.nasdaq.com/api/quote/DUOL/historical?assetclass=stocks&fromdate=2026-09-18&todate=2026-09-21&limit=5 — independent selected-close verification149.42.
+- `damodaran.html`: https://pages.stern.nyu.edu/~adamodar/New_Home_Page/home.htm — September1 2026 paired US Treasury4.75% and adjusted-payout implied ERP4.14%. Web and downloaded page agree. Treasury XML and FRED CSV attempts timed out. Selected inputs retain their September1 vintage.
+- Course materials: raw GitHub snapshots of both HTML slides, both VTT captions, landing tutorial, and Labs11–12. Spoken notes are embedded in slide HTML. Extracted course images were inspected for visual analytical purposes. Both YouTube pages were opened but returned only page shells; no claim of listening to video playback is made. The supplied truncated playlist URL did not resolve.
+
+Unit conversion is dollars/1,000,000 and shares/1,000,000. SEC figures presented in thousands in filings were converted by1,000. Percentages in assumptions are decimal fractions. No missing required figure is filled from an estimate without a stated convention.
+
+Source integrity SHA256 hashes are generated in outputs/tables/source_hashes.json.
