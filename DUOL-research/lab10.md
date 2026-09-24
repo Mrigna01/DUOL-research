@@ -53,6 +53,37 @@ judgment-based normalization toward mature growth and operating leverage. SBC re
 economic expense in FCFF; deferred revenue is modeled as a working-capital source; operating
 leases remain operating; and no debt or revolver is fabricated.
 
+### Assumption set used in the forecast
+
+| Assumption | Forecast value/path | Label | Reason |
+|---|---|---|---|
+| Revenue growth | 16.3%, 18.0%, 16.0%, 13.0%, 10.0% (2026–2030) | 2026 GUIDANCE; later JUDGMENT | 2026 management outlook; later years normalize as the subscriber base matures. |
+| Gross margin | 71.6%, 72.0%, 73.0%, 74.0%, 74.0% | 2026 GUIDANCE; later JUDGMENT | 2026 guidance; later improvement reflects scale and delivery efficiency. |
+| R&D excluding SBC / revenue | 23.0% down to 21.0% | JUDGMENT | Continued product investment with modest operating leverage. |
+| Sales and marketing excluding SBC / revenue | 13.0% down to 11.0% | JUDGMENT | Marketing remains elevated near term, then scales with the subscription base. |
+| G&A excluding SBC / revenue | 10.5% down to 8.5% | JUDGMENT | Administrative leverage as revenue grows faster than fixed overhead. |
+| SBC / revenue | 15.0%, 14.0%, 13.0%, 12.0%, 11.0% | 2026 GUIDANCE; later JUDGMENT | 2026 equity-expense outlook; gradual normalization thereafter. |
+| D&A / revenue | 1.4% each year | HISTORY | FY2025 historical D&A-to-revenue ratio. |
+| Capital expenditures / revenue | 2.6% each year | HISTORY | FY2025 historical capex-to-revenue ratio, including software investment. |
+| Effective tax rate | 24.0% each year | 2026 GUIDANCE; later JUDGMENT | 2026 outlook held constant after the guidance year. |
+| Accounts receivable / revenue | 15.7% each year | HISTORY | FY2025 historical ratio. |
+| Deferred contract cost / revenue | 9.9% each year | HISTORY | FY2025 historical ratio. |
+| Prepaid and other current assets / revenue | 1.6% each year | HISTORY | FY2025 historical ratio. |
+| Accounts payable / revenue | 0.8% each year | HISTORY | FY2025 historical ratio. |
+| Accrued liabilities / revenue | 4.4% each year | HISTORY | FY2025 historical ratio. |
+| Deferred revenue / revenue | 47.6% each year | JUDGMENT | Prepaid subscription economics remain broadly stable at scale. |
+| Cash and investment yield | 4.6% each year | HISTORY | Current cash/investment yield assumption from the historical source set. |
+| Minimum cash | $100 million | JUDGMENT | Conservative operating liquidity floor; Duolingo has no floor-plan facility. |
+| Buybacks and option proceeds | $0 in the explicit forecast | JUDGMENT | No additional repurchase or issuance is assumed without a disclosed plan. |
+| Withholding on share settlement | 30.3% each year | HISTORY | FY2025 historical cash-settlement ratio. |
+| PP&E share of capex | 66.0% each year | HISTORY | Historical split between PP&E and software/intangible investment. |
+| Diluted shares | 50.7 million | HISTORY | Latest diluted share count used consistently in the valuation. |
+| Terminal growth | 3.0% | JUDGMENT | Long-run nominal growth below the discount rate. |
+| WACC | 8.28% | JUDGMENT | Calculated from the model's beta, risk-free rate, ERP and capital structure. |
+
+The source category and exact source URL for each row are also recorded in
+`duol_valuation/assumptions.csv`; this table is the readable Lab 10 version of that file.
+
 ## Engine, checks and valuation
 
 Run the new Lab 10 entry point:
