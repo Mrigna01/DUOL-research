@@ -116,6 +116,14 @@ more mature scale while retaining a premium product and paid-subscriber opportun
 change it if new filings showed sustained acceleration or deceleration in paid subscribers,
 bookings, or management's long-run outlook.
 
+**Question I asked my partner about IBM:** How should IBM's mix of recurring software and
+consulting revenue, legacy infrastructure, and hybrid-cloud growth affect its forecast assumptions?
+
+**Partner's answer:** IBM should forecast its software and hybrid-cloud businesses separately from
+slower legacy infrastructure and consulting lines. The most defensible judgment would be the
+long-run margin and growth path, supported by recurring software revenue, cloud bookings, backlog,
+and management guidance rather than applying one growth rate to every IBM segment.
+
 
 ## Reflection prompts
 
