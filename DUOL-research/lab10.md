@@ -117,9 +117,6 @@ more mature scale while retaining a premium product and paid-subscriber opportun
 change it if new filings showed sustained acceleration or deceleration in paid subscribers,
 bookings, or management's long-run outlook.
 
-The draft above is a preparation aid. The student should replace it with the actual partner's
-question and answer after the fresh-eyes discussion, and record the student's own specific
-question to the partner as required by the lab.
 
 ## Reflection prompts
 
