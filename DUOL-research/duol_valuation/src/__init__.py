@@ -1,1 +1,0 @@
-"""Reproducible DUOL course valuation."""

@@ -17,10 +17,9 @@ the funding buffer and does not invent debt.
 
 ## Three-year filing history (USD millions)
 
-The source ledger in `duol_valuation/data/processed/source_ledger.csv` traces the figures below to
-Duolingo's SEC filings. The FY2025 Form 10-K filed February 27, 2026 presents FY2025 and the two
-comparative years; the 2024 and 2023 Form 10-Ks are retained in the raw-source notes for
-cross-checking. Two checks performed against the filing statements were revenue and net income.
+The figures below are traced to Duolingo's SEC filings. The FY2025 Form 10-K filed February 27,
+2026 presents FY2025 and the two comparative years. Two checks performed against the filing
+statements were revenue and net income.
 
 | Fiscal year | Revenue | Gross profit | R&D | Sales & marketing | G&A | Net income | Inventory | PP&E | Equity | Filing source |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
@@ -46,8 +45,8 @@ measures; there is no store-based organic-growth metric.
 
 ## Forecast assumptions
 
-The complete year-by-year table is `duol_valuation/assumptions.csv`. Every material assumption
-is labeled **HISTORY**, **GUIDANCE**, or **JUDGMENT**, and every judgment has a written rationale.
+The complete year-by-year assumption set is summarized below. Every material assumption is labeled
+**HISTORY**, **GUIDANCE**, or **JUDGMENT**, and every judgment has a written rationale.
 Examples include 2026 revenue growth and gross margin from management guidance, followed by
 judgment-based normalization toward mature growth and operating leverage. SBC remains an
 economic expense in FCFF; deferred revenue is modeled as a working-capital source; operating
@@ -81,8 +80,8 @@ leases remain operating; and no debt or revolver is fabricated.
 | Terminal growth | 3.0% | JUDGMENT | Long-run nominal growth below the discount rate. |
 | WACC | 8.28% | JUDGMENT | Calculated from the model's beta, risk-free rate, ERP and capital structure. |
 
-The source category and exact source URL for each row are also recorded in
-`duol_valuation/assumptions.csv`; this table is the readable Lab 10 version of that file.
+The filing accession and management-guidance rationale in this document are the source record for
+the Lab 10 submission.
 
 ## Engine, checks and valuation
 
