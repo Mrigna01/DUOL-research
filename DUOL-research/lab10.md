@@ -109,10 +109,10 @@ valuation date and share basis. This is a model question, not an investment reco
 
 ## Fresh-eyes review
 
-**Suggested judgment to challenge:** Why does revenue growth decline from the 2027 judgment case
+**Question** Why does revenue growth decline from the 2027 judgment case
 to 10% by 2030?
 
-**Draft answer:** The path reflects a high-growth subscription company gradually approaching a
+**answer:** The path reflects a high-growth subscription company gradually approaching a
 more mature scale while retaining a premium product and paid-subscriber opportunity. I would
 change it if new filings showed sustained acceleration or deceleration in paid subscribers,
 bookings, or management's long-run outlook.
@@ -134,5 +134,3 @@ simply extrapolating net margin.
 
 - `duol_proforma.py`
 - `lab10.md`
-- The Lab 10 file itself is self-contained; the larger `duol_valuation/` folder is supporting
-  project work and is not required as a separate Lab 10 figure or HTML submission.
