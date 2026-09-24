@@ -92,19 +92,19 @@ Run the new Lab 10 entry point:
 python duol_proforma.py
 ```
 
-It rebuilds the five-year model for FY2026E–FY2030E, executes the notebook, runs the deliberate
-failure tests, and refuses to report a value if the checks fail. The validated base case produces:
+It directly builds the five-year model for FY2026E–FY2030E, runs the deliberate failure test, and
+refuses to report a value if the checks fail. The Lab 10 base case produces:
 
 | Output | Result |
 |---|---:|
 | Current share price used (2026-09-21) | $149.42 |
-| Enterprise value | $5,610.9 million |
-| Equity value | $6,940.3 million |
-| Implied value per share | **$136.89** |
+| Enterprise value | $5,831.7 million |
+| Equity value | $7,107.3 million |
+| Implied value per share | **$140.18** |
 | WACC | 8.28% |
 | Terminal growth | 3.00% |
 
-The model says $136.89 per share while the dated market observation says $149.42 on the same
+The model says $140.18 per share while the dated market observation says $149.42 on the same
 valuation date and share basis. This is a model question, not an investment recommendation.
 
 ## Fresh-eyes review
@@ -134,7 +134,5 @@ simply extrapolating net margin.
 
 - `duol_proforma.py`
 - `lab10.md`
-- `duol_valuation/duol_valuation.ipynb`
-- `duol_valuation/assumptions.csv`
-- `duol_valuation/model_checks.csv`
-- supporting `duol_valuation/data/`, `outputs/`, and `src/` folders
+- The Lab 10 file itself is self-contained; the larger `duol_valuation/` folder is supporting
+  project work and is not required as a separate Lab 10 figure or HTML submission.
