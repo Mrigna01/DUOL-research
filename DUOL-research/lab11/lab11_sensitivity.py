@@ -48,7 +48,10 @@ def run_case(driver, level):
     if driver == "paid_conversion_retention":
         inputs["growth"] = [x + shock for x in inputs["growth"]]
     elif driver == "ai_features":
-        inputs["gross_margin"] = [x + shock for x in inputs["gross_margin"]]
+        # AI feature adoption is modeled as a paid-conversion/revenue uplift.
+        # The resulting revenue change then flows through gross profit, EBIT,
+        # working capital, FCFF, terminal value and value per share.
+        inputs["growth"] = [x + shock for x in inputs["growth"]]
     previous = dict(OPENING)
     rows = []
     for i, year in enumerate(YEARS):

@@ -8,9 +8,10 @@ This folder extends the standalone Lab 10 DUOL model without changing Lab 10 fil
    million paid subscribers, 58.7 million DAUs, and 84% current-user retention. The sensitivity
    uses a judgment shock of **−2.0 / 0.0 / +2.0 percentage points** to each forecast year's
    revenue growth. Only this growth path changes in its three runs.
-2. **AI features.** The same letter discusses AI-powered Video Call expansion and AI cost
-   efficiencies supporting gross margin. The sensitivity uses a judgment shock of **−1.0 / 0.0 /
-   +1.0 percentage points** to each forecast year's gross margin. Only gross margin changes in
+2. **AI features.** The same letter discusses AI-powered Video Call expansion and better
+   monetization. The sensitivity uses a judgment shock of **−1.0 / 0.0 / +1.0 percentage points**
+   to each forecast year's revenue growth. The causal chain is AI feature adoption → paid
+   conversion → revenue → EBIT → FCFF → value per share. Only the growth adjustment changes in
    these three runs.
 
 The locked predictions and timestamp are in `locked_changed_input_record.md`. The model resets all
@@ -34,14 +35,14 @@ the valuation uses FCFF discounted at WACC.
 | Paid conversion/retention | Lower | -2.0 pp | $423.1m | $333.7m | $128.42 | -$11.76 |
 | Paid conversion/retention | Base | 0.0 pp | $462.1m | $373.3m | $140.18 | $0.00 |
 | Paid conversion/retention | Higher | +2.0 pp | $503.8m | $416.3m | $152.94 | +$12.75 |
-| AI features | Lower | -1.0 pp | $441.5m | $357.7m | $135.19 | -$4.99 |
-| AI features | Base | 0.0 pp | $462.1m | $373.3m | $140.18 | $0.00 |
-| AI features | Higher | +1.0 pp | $482.6m | $388.9m | $145.18 | +$4.99 |
+| AI features | Lower | -1.0 pp growth | $442.3m | $353.1m | $134.18 | -$6.00 |
+| AI features | Base | 0.0 pp growth | $462.1m | $373.3m | $140.18 | $0.00 |
+| AI features | Higher | +1.0 pp growth | $482.6m | $394.4m | $146.43 | +$6.25 |
 
 Output spans across valid lower/base/higher cases are:
 
 - Paid conversion/retention: **$80.7m EBIT**, **$82.6m FCFF**, **$24.52 per share**.
-- AI features: **$41.1m EBIT**, **$31.2m FCFF**, **$9.99 per share**.
+- AI features: **$40.3m EBIT**, **$41.3m FCFF**, **$12.25 per share**.
 
 All six runs passed the accounting and liquidity checks. The final base rerun matched the original
 base result, confirming that the sensitivity process restored the independent inputs correctly.
@@ -53,22 +54,18 @@ $462.1 million, 2030 FCFF of $373.3 million, and value per share of $140.18. The
 cases changed only the selected driver; all linked statements, cash and valuation quantities were
 recalculated from that change.
 
-For the paid conversion/retention driver, the higher case was $152.94 per share versus the base
-of $140.18. The independently recomputed change is $152.94 − $140.18 = **+$12.75**. The lower
-case was $128.42, or **−$11.76** from base. For AI features, the higher case was $145.18 versus
-$140.18, a recomputed **+$4.99**; the lower case was $135.19, or **−$4.99**.
+For the paid conversion/retention driver, the higher case was $152.94 per share versus the base of $140.18. The independently recomputed change is $152.94 − $140.18 = **+$12.75**. The lower case was $128.42, or **−$11.76** from base. For AI features, the higher case was $146.43 versus $140.18, a recomputed **+$6.25**; the lower case was $134.18, or **−$6.00**.
 
 My prediction was correct on direction for both drivers. The realized result shows that the paid
 conversion/retention shock had the larger effect over these stated ranges. The AI result was
-smaller than the subscriber result because the AI scenario changed gross margin by one percentage
-point, while the subscriber scenario changed revenue growth by two percentage points in every
-forecast year and therefore also changed the scale of the working-capital and terminal cash flows.
+smaller than the subscriber result because the AI scenario changed revenue growth by one percentage
+point, while the subscriber scenario changed it by two percentage points in every forecast year.
 
-**Partner exchange 2.** I showed my partner the AI higher case ($145.18) and base case ($140.18).
-My partner recomputed the difference as +$4.99 and checked that the other driver remained at its
-base value. The trace was: AI efficiency improves gross margin, which raises EBIT; higher EBIT
-raises FCFF after tax; higher FCFF raises the explicit-period and terminal values. The accounting
-checks passed in both cases.
+**Partner exchange 2.** I showed my partner the AI higher case ($146.43) and base case ($140.18).
+My partner recomputed the difference as +$6.25 and checked that the other driver remained at its
+base value. The trace was: AI features improve paid conversion, which raises revenue; higher
+revenue raises gross profit and EBIT; higher EBIT raises FCFF after tax; higher FCFF raises the
+explicit-period and terminal values. The accounting checks passed in both cases.
 
 **Partner exchange 3.** My partner asked: “How do you see AI affecting the company financially,
 and how do you separate AI-driven revenue benefits from AI-driven cost effects?” I answered that
@@ -92,6 +89,6 @@ not a probability forecast; it shows conditional outcomes under specified assump
 likelihood that any case will occur.
 
 The driver that mattered most over these ranges was paid conversion and retention. The result that
-surprised me was that a one-point AI margin improvement moved value by about $5 per share, which is
+surprised me was that a one-point AI-driven revenue-growth improvement moved value by about $6 per share, which is
 meaningful but less than the subscriber-growth shock. That reinforces the research priority of
 tracking paid subscribers, retention and conversion while still monitoring AI costs and monetization.
