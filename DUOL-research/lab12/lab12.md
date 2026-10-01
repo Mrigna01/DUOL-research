@@ -184,25 +184,6 @@ and installed base support repeat product purchases and recurring Services reven
 replacement cycles and competition still limit how aggressively future growth should be assumed.
 That conclusion is conditional rather than a claim that Apple can grow indefinitely.
 
-The supporting evidence was Apple's own reporting. In its fiscal Q3 2025 release, Apple said its
-installed base of active devices reached an all-time high across product categories and geographic
-segments, citing customer satisfaction and loyalty. The same release reported quarterly revenue of
-$94.0 billion, up 10% year over year, and a Services revenue record:
-[Apple fiscal Q3 2025 results](https://www.apple.com/newsroom/2025/07/apple-reports-third-quarter-results/).
-Apple's 2025 Services review also reported more than 850 million average weekly App Store users
-and described record engagement across Services:
-[Apple 2025 Services review](https://www.apple.com/newsroom/2026/01/2025-marked-a-record-breaking-year-for-apple-services/).
-
-The evidence supports a reasonable-valuation view because loyalty and Services create durability,
-but it does not prove that every customer upgrades every year. The forecast still needs to separate
-hardware replacement cycles from Services growth and consider pricing, competition, and product
-demand. Apple's 2025 Form 10-K provides the annual segment and product revenue detail:
-[Apple 2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm).
-
-The partner's main strength was connecting Apple's business model to a specific operating driver.
-The improvement I suggested was to separate the hardware replacement cycle from the higher-margin
-Services business instead of applying one growth rate to all Apple revenue.
-
 ### Keep, revise, investigate
 
 I will keep the conclusion that Duolingo is reasonably valued within the modeled range. I will keep
