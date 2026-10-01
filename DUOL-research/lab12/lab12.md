@@ -179,11 +179,25 @@ revenue, EBIT, FCFF, and value. Both cases passed the accounting checks.
 I asked: **How strong is customer loyalty toward Apple, and what evidence shows that customers will
 continue buying Apple products and services rather than switching to competitors?**
 
-The answer was that Apple loyalty can support repeat purchases, ecosystem retention, and Services
-revenue, but loyalty should not be treated as guaranteed. The forecast should look for evidence such
-as repeat purchasing, installed-device growth, Services retention, customer satisfaction, switching
-costs, and product demand. The question was useful because it separated brand loyalty from an
-assumption that every customer automatically upgrades each year.
+The partner's conclusion was that Apple appears **reasonably valued**, because its customer loyalty
+and installed base support repeat product purchases and recurring Services revenue, while hardware
+replacement cycles and competition still limit how aggressively future growth should be assumed.
+That conclusion is conditional rather than a claim that Apple can grow indefinitely.
+
+The supporting evidence was Apple's own reporting. In its fiscal Q3 2025 release, Apple said its
+installed base of active devices reached an all-time high across product categories and geographic
+segments, citing customer satisfaction and loyalty. The same release reported quarterly revenue of
+$94.0 billion, up 10% year over year, and a Services revenue record:
+[Apple fiscal Q3 2025 results](https://www.apple.com/newsroom/2025/07/apple-reports-third-quarter-results/).
+Apple's 2025 Services review also reported more than 850 million average weekly App Store users
+and described record engagement across Services:
+[Apple 2025 Services review](https://www.apple.com/newsroom/2026/01/2025-marked-a-record-breaking-year-for-apple-services/).
+
+The evidence supports a reasonable-valuation view because loyalty and Services create durability,
+but it does not prove that every customer upgrades every year. The forecast still needs to separate
+hardware replacement cycles from Services growth and consider pricing, competition, and product
+demand. Apple's 2025 Form 10-K provides the annual segment and product revenue detail:
+[Apple 2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm).
 
 The partner's main strength was connecting Apple's business model to a specific operating driver.
 The improvement I suggested was to separate the hardware replacement cycle from the higher-margin
@@ -200,4 +214,3 @@ retention, AI monetization, and gross-margin performance before changing the val
 The review did not change the conclusion because the partner's questions confirmed the main causal
 links and the base valuation remained inside the sensitivity range. It did clarify that the AI shock
 is a revenue-conversion proxy rather than a direct measure of AI revenue.
-
