@@ -191,7 +191,3 @@ paid conversion and retention as the first research priority because they produc
 span. I would revise the model if new filings showed that AI features were changing paid conversion
 or gross margin materially differently from the current judgment range. I would investigate bookings,
 retention, AI monetization, and gross-margin performance before changing the valuation conclusion.
-
-The review did not change the conclusion because the partner's questions confirmed the main causal
-links and the base valuation remained inside the sensitivity range. It did clarify that the AI shock
-is a revenue-conversion proxy rather than a direct measure of AI revenue.
