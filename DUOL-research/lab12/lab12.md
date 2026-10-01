@@ -201,7 +201,3 @@ The review did not change the conclusion because the partner's questions confirm
 links and the base valuation remained inside the sensitivity range. It did clarify that the AI shock
 is a revenue-conversion proxy rather than a direct measure of AI revenue.
 
-## Submission files
-
-- `lab12/lab12.md`
-- Existing Lab 09, Lab 10, and Lab 11 files and outputs linked in the repository as supporting work.
