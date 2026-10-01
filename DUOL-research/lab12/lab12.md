@@ -158,11 +158,14 @@ profit and EBIT, EBIT raises after-tax FCFF, and higher FCFF raises both the exp
 and terminal value. The resulting enterprise value is adjusted for cash, investments and shares to
 arrive at value per share.
 
-**Sensitivity and interpretation:** Could the driver ranking be caused by the ranges?
+**Sensitivity and interpretation:** Do you think AI could become Duolingo's primary growth and
+value driver in the future, or will paid-subscriber conversion and retention remain more important?
 
-**Answer:** Yes. The conclusion that paid conversion and retention had the larger span applies only
-to the selected ±2 percentage-point range versus the AI ±1 percentage-point range. A wider AI range
-could change the ranking.
+**Answer:** AI could become a primary driver if its features materially increase paid conversion,
+retention, or revenue per subscriber. In the current model, however, paid conversion and retention
+remain more important because they have the larger tested range and the larger value span. The
+conclusion is conditional: future evidence showing strong AI adoption and monetization could change
+the ranking.
 
 ### Evidence and calculation checked
 
@@ -173,14 +176,14 @@ revenue, EBIT, FCFF, and value. Both cases passed the accounting checks.
 
 ### Review of my partner's Apple analysis
 
-I asked: **How does Apple's installed base and iPhone upgrade cycle affect revenue growth, and what
-evidence supports the assumptions about customer retention and upgrade frequency?**
+I asked: **How strong is customer loyalty toward Apple, and what evidence shows that customers will
+continue buying Apple products and services rather than switching to competitors?**
 
-The answer was that Apple's installed base supports recurring upgrades and services revenue, but
-the forecast must separate hardware upgrade cycles from Services growth. The relevant evidence is
-Apple's annual filing discussion of product and Services revenue, installed devices, customer demand,
-and segment performance. The question was useful because it forced the analysis to distinguish a
-large installed base from guaranteed annual upgrades.
+The answer was that Apple loyalty can support repeat purchases, ecosystem retention, and Services
+revenue, but loyalty should not be treated as guaranteed. The forecast should look for evidence such
+as repeat purchasing, installed-device growth, Services retention, customer satisfaction, switching
+costs, and product demand. The question was useful because it separated brand loyalty from an
+assumption that every customer automatically upgrades each year.
 
 The partner's main strength was connecting Apple's business model to a specific operating driver.
 The improvement I suggested was to separate the hardware replacement cycle from the higher-margin
