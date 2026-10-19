@@ -1,0 +1,3 @@
+# Only PDF rebuilding needs external packages; model, analysis and panel use Python standard library.
+reportlab==4.4.3
+pypdf==6.16.2

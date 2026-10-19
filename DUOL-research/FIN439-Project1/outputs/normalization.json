@@ -1,0 +1,11 @@
+{
+  "reported_net_income": 414.065,
+  "tax_release_only_earnings": 157.365,
+  "remove_other_income": 1.6090000000000018,
+  "reported_tax": -231.655,
+  "normalized_tax_rate": 0.24,
+  "normalized_earnings": 137.40876,
+  "normalized_nopat": 103.0332,
+  "reported_fcf": 360.424,
+  "normalized_operating_fcff": 166.12019999999995
+}

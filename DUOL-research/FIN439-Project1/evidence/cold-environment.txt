@@ -1,0 +1,12 @@
+Python 3.13.9
+
+Initial environment:
+Package Version
+------- -------
+pip     25.2
+
+PDF rebuild dependencies:
+charset-normalizer==3.5.2
+pillow==13.0.0
+pypdf==6.16.2
+reportlab==4.4.3

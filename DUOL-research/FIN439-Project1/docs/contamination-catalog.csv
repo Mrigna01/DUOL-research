@@ -1,0 +1,11 @@
+item,amount_USD_m,contamination_risk,treatment,evidence
+Tax valuation-allowance release,256.7,Nonrecurring reported-earnings benefit,"Flag and exclude recurrence; normalized earnings replace TOTAL tax line, not double-subtract release.",FY2025 tax note; normalization_bridge.csv
+Reported tax benefit,231.655,Reported effective rate not sustainable normal tax,Use 24% normal tax assumption; distinguish cash taxes from reported taxes.,FY2025 income statement; Q2 2026 guidance
+Other nonoperating income,1.609,Not recurring core operating income,Exclude from normalized equity earnings and operating FCFF.,FY2025 income statement
+Interest income,45.231,Nonoperating income on cash/investments,Retain in normalized equity earnings; exclude from FCFF and value excess cash separately.,FY2025 income statement
+Stock-based compensation,137.437,CFO noncash add-back is not costless shareholder value,Retain economic cost in operating FCFF; disclose diluted convention.,FY2025 cash-flow statement
+Capital spending,27.399,Omitting software purchases overstates FCF,Include PPE 18.096 plus software/intangible purchases 9.303.,FY2025 cash-flow statement
+Working capital,-76.095,Negative investment boosts current cash; growth cannot release cash indefinitely,Forecast operating balances and recompute terminal reinvestment at mature growth.,FY2025 statements; forecast model
+Cash and investments,1416.559,Nonoperating liquidity needs date alignment and operating reserve,Adjust elapsed cash generation/buybacks; deduct 100 reserve; do not add future accumulated cash.,H1 2026 balances; dated bridge
+Future terminal cash,3307.385076,Double count if added to EV already discounting FCFF,Highest-risk test rejects this addition.,validation_checks.csv
+Reported FCF,360.424,Company CFO-capex differs from operating FCFF,Use as source identity only; do not substitute for NOPAT-based forecast.,FY2025 CFO 387.823 less capex 27.399

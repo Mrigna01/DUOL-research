@@ -1,0 +1,70 @@
+{
+  "source_commit": "e3aefff",
+  "reconciliation_run_utc": "2026-10-18T04:58:56.692933+00:00",
+  "description": "Retrospective assistant rerun of preserved original lab code; not the historical classroom execution or a new human AI-off test",
+  "cases": [
+    {
+      "driver": "paid_conversion_retention",
+      "case": "low",
+      "input_value": -0.02,
+      "status": "PASS",
+      "final_ebit": 423.1337387490327,
+      "final_fcff": 333.7358533688874,
+      "value_per_share": 128.4206272844038
+    },
+    {
+      "driver": "paid_conversion_retention",
+      "case": "base",
+      "input_value": 0.0,
+      "status": "PASS",
+      "final_ebit": 462.07314670256994,
+      "final_fcff": 373.2990936694096,
+      "value_per_share": 140.18321713393624
+    },
+    {
+      "driver": "paid_conversion_retention",
+      "case": "high",
+      "input_value": 0.02,
+      "status": "PASS",
+      "final_ebit": 503.8274876869282,
+      "final_fcff": 416.33744458700755,
+      "value_per_share": 152.9363219297852
+    },
+    {
+      "driver": "ai_features",
+      "case": "low",
+      "input_value": -0.01,
+      "status": "PASS",
+      "final_ebit": 441.53656240467797,
+      "final_fcff": 357.6912896030117,
+      "value_per_share": 135.19042681329844
+    },
+    {
+      "driver": "ai_features",
+      "case": "base",
+      "input_value": 0.0,
+      "status": "PASS",
+      "final_ebit": 462.07314670256994,
+      "final_fcff": 373.2990936694096,
+      "value_per_share": 140.18321713393624
+    },
+    {
+      "driver": "ai_features",
+      "case": "high",
+      "input_value": 0.01,
+      "status": "PASS",
+      "final_ebit": 482.6097310004619,
+      "final_fcff": 388.9068977358075,
+      "value_per_share": 145.17600745457403
+    }
+  ],
+  "restored_base": {
+    "driver": "ai_features",
+    "case": "base",
+    "input_value": 0.0,
+    "status": "PASS",
+    "final_ebit": 462.07314670256994,
+    "final_fcff": 373.2990936694096,
+    "value_per_share": 140.18321713393624
+  }
+}

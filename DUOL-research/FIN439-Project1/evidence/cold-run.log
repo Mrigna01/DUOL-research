@@ -1,0 +1,72 @@
+Fresh isolated environment; no system-site-packages. Source copy excludes outputs and caches. Start UTC 2026-10-19T01:47:22.495026+00:00
+COMMAND: ['C:\\Users\\mrign\\anaconda3\\python.exe', '-m', 'venv', 'C:\\Users\\mrign\\AppData\\Local\\Temp\\duol-final-cold-hmvrv42y\\venv']
+
+STDERR: 
+EXIT: 0
+COMMAND: ['C:\\Users\\mrign\\AppData\\Local\\Temp\\duol-final-cold-hmvrv42y\\venv\\Scripts\\python.exe', '--version']
+Python 3.13.9
+
+STDERR: 
+EXIT: 0
+COMMAND: ['C:\\Users\\mrign\\AppData\\Local\\Temp\\duol-final-cold-hmvrv42y\\venv\\Scripts\\python.exe', '-m', 'pip', 'list', '--disable-pip-version-check']
+Package Version
+------- -------
+pip     25.2
+
+STDERR: 
+EXIT: 0
+COMMAND: ['C:\\Users\\mrign\\AppData\\Local\\Temp\\duol-final-cold-hmvrv42y\\venv\\Scripts\\python.exe', '-B', 'analysis.py']
+{
+  "status": "PASS",
+  "run_utc": "2026-10-19T01:47:45.748629+00:00",
+  "model_checks": 148,
+  "validation_checks": 70,
+  "value_per_share": 137.5734207925391,
+  "original_lab10_value": 140.18321713393624,
+  "change_from_original_lab10": -2.6097963413971286
+}
+
+STDERR: 
+EXIT: 0
+COMMAND: ['C:\\Users\\mrign\\AppData\\Local\\Temp\\duol-final-cold-hmvrv42y\\venv\\Scripts\\python.exe', '-B', 'validate.py', '--panel']
+PASS: 54 panel checks
+
+STDERR: 
+EXIT: 0
+COMMAND: ['C:\\Users\\mrign\\AppData\\Local\\Temp\\duol-final-cold-hmvrv42y\\venv\\Scripts\\python.exe', '-m', 'pip', 'install', '--disable-pip-version-check', '-r', 'requirements.txt']
+Collecting reportlab==4.4.3 (from -r requirements.txt (line 2))
+  Using cached reportlab-4.4.3-py3-none-any.whl.metadata (1.7 kB)
+Collecting pypdf==6.16.2 (from -r requirements.txt (line 3))
+  Using cached pypdf-6.16.2-py3-none-any.whl.metadata (7.5 kB)
+Collecting pillow>=9.0.0 (from reportlab==4.4.3->-r requirements.txt (line 2))
+  Using cached pillow-13.0.0-cp313-cp313-win_amd64.whl.metadata (9.3 kB)
+Collecting charset-normalizer (from reportlab==4.4.3->-r requirements.txt (line 2))
+  Using cached charset_normalizer-3.5.2-cp313-cp313-win_amd64.whl.metadata (47 kB)
+Using cached reportlab-4.4.3-py3-none-any.whl (2.0 MB)
+Using cached pypdf-6.16.2-py3-none-any.whl (385 kB)
+Using cached pillow-13.0.0-cp313-cp313-win_amd64.whl (7.3 MB)
+Using cached charset_normalizer-3.5.2-cp313-cp313-win_amd64.whl (206 kB)
+Installing collected packages: pypdf, pillow, charset-normalizer, reportlab
+
+Successfully installed charset-normalizer-3.5.2 pillow-13.0.0 pypdf-6.16.2 reportlab-4.4.3
+
+STDERR: 
+EXIT: 0
+COMMAND: ['C:\\Users\\mrign\\AppData\\Local\\Temp\\duol-final-cold-hmvrv42y\\venv\\Scripts\\python.exe', '-B', 'build_documents.py']
+{
+  "Research-Evolution.pdf": 6,
+  "Decision-Memo.pdf": 2,
+  "Validation-and-AI-Use.pdf": 4
+}
+
+STDERR: 
+EXIT: 0
+COMMAND: ['C:\\Users\\mrign\\AppData\\Local\\Temp\\duol-final-cold-hmvrv42y\\venv\\Scripts\\python.exe', '-m', 'pip', 'freeze']
+charset-normalizer==3.5.2
+pillow==13.0.0
+pypdf==6.16.2
+reportlab==4.4.3
+
+STDERR: 
+EXIT: 0
+All commands succeeded on first attempt. Numerical output files match the final package byte-for-byte. Source code matched the run copy. End UTC 2026-10-19T01:48:14.847636+00:00

@@ -1,0 +1,60 @@
+{
+  "valuation_date": "2026-09-21",
+  "market_price": 149.42,
+  "enterprise_value": 5611.24491781866,
+  "equity_value": 6974.972434181733,
+  "value_per_share": 137.5734207925391,
+  "pv_explicit": 878.6115554828773,
+  "terminal_value": 6651.019604465025,
+  "pv_terminal": 4732.633362335782,
+  "terminal_share": 0.843419496323744,
+  "wacc": 0.08276376244240655,
+  "terminal_growth": 0.03,
+  "diluted_shares": 50.7,
+  "reported_cash": 1180.887,
+  "investments": 235.67200000000003,
+  "estimated_elapsed_cash": 49.46551636307264,
+  "post_h1_buybacks": 2.2969999999999997,
+  "new_post_h1_repurchases": 1.6219999999999999,
+  "settlement_of_h1_repurchases": 0.675,
+  "estimated_dated_cash": 1228.0555163630725,
+  "minimum_cash": 100.0,
+  "excess_cash": 1363.7275163630725,
+  "debt": 0.0,
+  "terminal_fcff": 350.9328184097813,
+  "terminal_reinvestment": 10.769864700162675,
+  "terminal_roic": 1.0075410226030432,
+  "terminal_roic20_value": 126.0065532460975,
+  "discounted": [
+    {
+      "year": 2026,
+      "future_fcff": 4.981005650884476,
+      "period": 0.27671232876712326,
+      "pv": 4.872604146151207
+    },
+    {
+      "year": 2027,
+      "future_fcff": 178.39661096747574,
+      "period": 1.2767123287671234,
+      "pv": 161.17474182165205
+    },
+    {
+      "year": 2028,
+      "future_fcff": 244.7164438487656,
+      "period": 2.2794520547945205,
+      "pv": 204.14803827316433
+    },
+    {
+      "year": 2029,
+      "future_fcff": 315.26770692459974,
+      "period": 3.2794520547945205,
+      "pv": 242.90017822121206
+    },
+    {
+      "year": 2030,
+      "future_fcff": 373.14364745298514,
+      "period": 4.279452054794521,
+      "pv": 265.5159930206977
+    }
+  ]
+}

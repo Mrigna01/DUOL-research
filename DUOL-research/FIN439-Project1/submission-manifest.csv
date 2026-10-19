@@ -1,0 +1,13 @@
+item,required,location_or_url,title,duration_or_as_of,timestamp_index,access_checked,frozen_or_commit_id,notes
+Research-Evolution.pdf,yes,docs/Research-Evolution.pdf,DUOL research evolution,2026-09-21,Edition A / B / change table,Local checked; remote pending,SHA256:64d93d90855f78dab3424c3701ddea617457c2264e7f30e2a7dec5a048c8609b,Checkpoint evidence unresolved
+Repository,yes,https://github.com/Mrigna01/DUOL-research,Consolidated FIN439-Project1,2026-10-18,,Local verified; remote publication/access UNVERIFIED,Local file snapshot: evidence/package-hashes.json; not a published commit,Local package FIN439-Project1; remote publication/access still unverified; archive excluded
+Visible executed output,yes,outputs/visible-output.html,Executed statements and valuation,2026-09-21,Cases; bridge; grid; reverse; OAT; statements; checks,Local checked,SHA256:04ab5db56d8702222535fd25d50c01b07893d6d02b4cf809a9ff80f7658b6633,No run required to inspect
+Decision memo or deck,yes,docs/Decision-Memo.pdf,Watch / Defer,2026-09-21,2 pages,Local checked,SHA256:e91495718be7c1bf8d9f8e9094eebe1d645cb370b96e776f05edb987412918fc,Two pages; corrected base 137.57; range 114.20-165.01; Watch / Defer
+Validation-and-AI-Use.pdf,yes,docs/Validation-and-AI-Use.pdf,Validation and AI use,2026-10-18,Tests and preserved Locked Record,Local checked,SHA256:76952ffb2a24a18b8394600eec02b3aec0299ff52732c7034137581bfb755e2b,Cash/repurchase correction verified; 148 model checks; 70 validation tests; 54 HTTP checks; browser and clean-run evidence; full historical Locked Record
+Video 1,yes,,Video 1 - pending,,,NOT CHECKED,,Actual recording; max 3 minutes
+Transcript Video 1,yes,,transcript-video-1.txt - pending,,,NOT CHECKED,,Correct from actual recording
+Video 2,yes,,Video 2 - pending,,,NOT CHECKED,,Actual recording; max 5 minutes
+Transcript Video 2,yes,,transcript-video-2.txt - pending,,,NOT CHECKED,,Correct from actual recording
+Video 3,yes,,Video 3 - pending,,,NOT CHECKED,,Actual recording; max 5 minutes
+Transcript Video 3,yes,,transcript-video-3.txt - pending,,,NOT CHECKED,,Correct from actual recording
+Optional deployed output,no,,Local panel supplied,,,Not applicable,,Hosting not required

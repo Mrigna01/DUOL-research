@@ -1,0 +1,17 @@
+{
+  "beta": 0.8517817015074047,
+  "risk_free": 0.0475,
+  "equity_risk_premium": 0.0414,
+  "debt_weight": 0.0,
+  "wacc": 0.08276376244240655,
+  "observations": 60,
+  "period_start": "2021-08",
+  "period_end": "2026-08",
+  "rate_vintage": "2026-09-01",
+  "definition": "Unadjusted monthly close returns; covariance/variance; zero financial debt",
+  "r_squared": 0.04509932268667438,
+  "beta_standard_error": 0.5146457612644474,
+  "beta_ci95_low": -0.1569239905709121,
+  "beta_ci95_high": 1.8604873935857216,
+  "total_return_beta": 0.8907325815669714
+}

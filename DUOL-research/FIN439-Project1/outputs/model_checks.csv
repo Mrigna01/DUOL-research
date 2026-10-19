@@ -1,0 +1,149 @@
+test,year,gap,status
+Historical balance,2023,0.0,PASS
+Historical assets,2023,0.0,PASS
+Historical liabilities,2023,0.0,PASS
+Historical EBIT,2023,2.842170943040401e-14,PASS
+Historical net income,2023,0.0,PASS
+Historical balance,2024,1.1368683772161603e-13,PASS
+Historical assets,2024,0.0,PASS
+Historical liabilities,2024,0.0,PASS
+Historical EBIT,2024,2.842170943040401e-14,PASS
+Historical net income,2024,0.0,PASS
+Historical cash flow,2024,7.460698725481052e-14,PASS
+Historical balance,2025,-2.2737367544323206e-13,PASS
+Historical assets,2025,-2.2737367544323206e-13,PASS
+Historical liabilities,2025,0.0,PASS
+Historical EBIT,2025,0.0,PASS
+Historical net income,2025,0.0,PASS
+Historical cash flow,2025,-1.3855583347321954e-13,PASS
+Historical balance,2026,0.0,PASS
+Historical assets,2026,0.0,PASS
+Historical liabilities,2026,0.0,PASS
+Historical EBIT,2026,1.4210854715202004e-14,PASS
+Historical net income,2026,1.4210854715202004e-14,PASS
+Historical cash flow,2026,2.842170943040401e-14,PASS
+Balance sheet,2026,-2.2737367544323206e-13,PASS
+Assets total,2026,0.0,PASS
+Liabilities total,2026,0.0,PASS
+Period cash bridge,2026,-5.684341886080802e-14,PASS
+Annual cash bridge,2026,0.0,PASS
+CFO identity,2026,0.0,PASS
+FCFF identity,2026,0.0,PASS
+NWC identity,2026,0.0,PASS
+NWC change,2026,0.0,PASS
+PPE roll-forward,2026,-2.6645352591003757e-15,PASS
+Software roll-forward,2026,8.881784197001252e-16,PASS
+Equity roll-forward,2026,-4.551914400963142e-14,PASS
+FCFF to statement cash,2026,-8.881784197001252e-15,PASS
+Financing cash flow,2026,2.886579864025407e-15,PASS
+Pretax income,2026,3.552713678800501e-15,PASS
+Operating income,2026,4.263256414560601e-14,PASS
+Net income,2026,0.0,PASS
+Finite lines,2026,0,PASS
+Cash floor,2026,0.0,PASS
+Nonnegative balances,2026,0.0,PASS
+Balance sheet,2027,0.0,PASS
+Assets total,2027,0.0,PASS
+Liabilities total,2027,0.0,PASS
+Period cash bridge,2027,7.105427357601002e-15,PASS
+Annual cash bridge,2027,7.105427357601002e-15,PASS
+CFO identity,2027,0.0,PASS
+FCFF identity,2027,0.0,PASS
+NWC identity,2027,0.0,PASS
+NWC change,2027,0.0,PASS
+PPE roll-forward,2027,-1.7763568394002505e-15,PASS
+Software roll-forward,2027,1.7763568394002505e-15,PASS
+Equity roll-forward,2027,-4.973799150320701e-14,PASS
+FCFF to statement cash,2027,0.0,PASS
+Financing cash flow,2027,0.0,PASS
+Pretax income,2027,-1.4210854715202004e-14,PASS
+Operating income,2027,0.0,PASS
+Net income,2027,0.0,PASS
+Finite lines,2027,0,PASS
+Cash floor,2027,0.0,PASS
+Nonnegative balances,2027,0.0,PASS
+Balance sheet,2028,-4.547473508864641e-13,PASS
+Assets total,2028,0.0,PASS
+Liabilities total,2028,0.0,PASS
+Period cash bridge,2028,1.2789769243681803e-13,PASS
+Annual cash bridge,2028,1.2789769243681803e-13,PASS
+CFO identity,2028,2.842170943040401e-14,PASS
+FCFF identity,2028,0.0,PASS
+NWC identity,2028,0.0,PASS
+NWC change,2028,0.0,PASS
+PPE roll-forward,2028,1.0658141036401503e-14,PASS
+Software roll-forward,2028,0.0,PASS
+Equity roll-forward,2028,4.121147867408581e-13,PASS
+FCFF to statement cash,2028,0.0,PASS
+Financing cash flow,2028,0.0,PASS
+Pretax income,2028,0.0,PASS
+Operating income,2028,0.0,PASS
+Net income,2028,0.0,PASS
+Finite lines,2028,0,PASS
+Cash floor,2028,0.0,PASS
+Nonnegative balances,2028,0.0,PASS
+Balance sheet,2029,-4.547473508864641e-13,PASS
+Assets total,2029,0.0,PASS
+Liabilities total,2029,0.0,PASS
+Period cash bridge,2029,-3.126388037344441e-13,PASS
+Annual cash bridge,2029,-3.126388037344441e-13,PASS
+CFO identity,2029,-2.842170943040401e-14,PASS
+FCFF identity,2029,0.0,PASS
+NWC identity,2029,0.0,PASS
+NWC change,2029,0.0,PASS
+PPE roll-forward,2029,-3.552713678800501e-15,PASS
+Software roll-forward,2029,3.552713678800501e-15,PASS
+Equity roll-forward,2029,-1.4210854715202004e-13,PASS
+FCFF to statement cash,2029,0.0,PASS
+Financing cash flow,2029,0.0,PASS
+Pretax income,2029,0.0,PASS
+Operating income,2029,5.684341886080802e-14,PASS
+Net income,2029,0.0,PASS
+Finite lines,2029,0,PASS
+Cash floor,2029,0.0,PASS
+Nonnegative balances,2029,0.0,PASS
+Balance sheet,2030,0.0,PASS
+Assets total,2030,0.0,PASS
+Liabilities total,2030,0.0,PASS
+Period cash bridge,2030,3.126388037344441e-13,PASS
+Annual cash bridge,2030,3.126388037344441e-13,PASS
+CFO identity,2030,5.684341886080802e-14,PASS
+FCFF identity,2030,0.0,PASS
+NWC identity,2030,0.0,PASS
+NWC change,2030,0.0,PASS
+PPE roll-forward,2030,1.4210854715202004e-14,PASS
+Software roll-forward,2030,-7.105427357601002e-15,PASS
+Equity roll-forward,2030,-4.547473508864641e-13,PASS
+FCFF to statement cash,2030,0.0,PASS
+Financing cash flow,2030,0.0,PASS
+Pretax income,2030,5.684341886080802e-14,PASS
+Operating income,2030,1.1368683772161603e-13,PASS
+Net income,2030,0.0,PASS
+Finite lines,2030,0,PASS
+Cash floor,2030,0.0,PASS
+Nonnegative balances,2030,0.0,PASS
+Assumption growth,all,0,PASS
+Assumption gross_margin,all,0,PASS
+Assumption rd_ex_sbc,all,0,PASS
+Assumption sm_ex_sbc,all,0,PASS
+Assumption ga_ex_sbc,all,0,PASS
+Assumption sbc_ratio,all,0,PASS
+Assumption da_ratio,all,0,PASS
+Assumption capex_ratio,all,0,PASS
+Assumption tax_rate,all,0,PASS
+Assumption ar_ratio,all,0,PASS
+Assumption deferred_cost_ratio,all,0,PASS
+Assumption prepaid_ratio,all,0,PASS
+Assumption ap_ratio,all,0,PASS
+Assumption accrued_ratio,all,0,PASS
+Assumption deferred_revenue_ratio,all,0,PASS
+Assumption investment_yield,all,0,PASS
+Assumption minimum_cash,all,0,PASS
+Assumption buybacks,all,0,PASS
+Assumption option_proceeds,all,0,PASS
+Assumption withholding_ratio,all,0,PASS
+Assumption ppe_capex_share,all,0,PASS
+Assumption diluted_shares,all,0,PASS
+Assumption terminal_growth,all,0,PASS
+Assumption wacc,all,0,PASS
+WACC > g,terminal,0,PASS

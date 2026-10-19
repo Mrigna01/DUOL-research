@@ -1,0 +1,4 @@
+input,value_m,as_of,source,basis
+h1_recognized_repurchases,70.278,2026-06-30,https://www.sec.gov/Archives/edgar/data/1562088/000162828026053603/duol-20260630.htm p9,Recognized equity reduction; TreasuryStockValueAcquiredCostMethod in retained companyfacts.json
+h1_unsettled_repurchases,0.675,2026-06-30,https://www.sec.gov/Archives/edgar/data/1562088/000162828026053603/duol-20260630.htm p11,Repurchases in current liabilities; reconciles 70.278 recognized less 69.603 cash paid
+repurchases_through_aug1,71.9,2026-08-01,https://www.sec.gov/Archives/edgar/data/1562088/000162828026053299/q2fy26duolingo6-30x26share.htm p9,Rounded cumulative repurchases; assumes settlement by September 21 and no additional unreported purchases

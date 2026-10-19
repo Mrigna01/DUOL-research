@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "run_utc": "2026-10-19T01:47:45.748629+00:00",
+  "model_checks": 148,
+  "validation_checks": 70,
+  "value_per_share": 137.5734207925391,
+  "original_lab10_value": 140.18321713393624,
+  "change_from_original_lab10": -2.6097963413971286
+}

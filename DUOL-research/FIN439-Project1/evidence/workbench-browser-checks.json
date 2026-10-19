@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "browser": "Chrome headless; actual DOM interactions",
+  "tests": [
+    {
+      "test": "Browser initial base",
+      "status": "PASS",
+      "display": "$137.57"
+    },
+    {
+      "test": "Browser margin input updates value and statements",
+      "status": "PASS",
+      "display": "$142.86"
+    },
+    {
+      "test": "Browser reset restores base",
+      "status": "PASS"
+    },
+    {
+      "test": "Browser deliberate engine failure clears all stale results",
+      "status": "PASS"
+    },
+    {
+      "test": "Browser simulated network failure clears stale results",
+      "status": "PASS"
+    },
+    {
+      "test": "Browser recovery after network failure",
+      "status": "PASS"
+    }
+  ]
+}

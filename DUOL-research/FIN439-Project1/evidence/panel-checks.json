@@ -1,0 +1,326 @@
+[
+  {
+    "test": "Base",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 137.5734207925391
+  },
+  {
+    "test": "Margin +1pp",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 142.8623675989597
+  },
+  {
+    "test": "Reset",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 137.5734207925391
+  },
+  {
+    "test": "Real DCF failure",
+    "status": "PASS",
+    "http_status": 422,
+    "value": null
+  },
+  {
+    "test": "Out of bounds",
+    "status": "PASS",
+    "http_status": 422,
+    "value": null
+  },
+  {
+    "test": "NaN",
+    "status": "PASS",
+    "http_status": 422,
+    "value": null
+  },
+  {
+    "test": "Infinity",
+    "status": "PASS",
+    "http_status": 422,
+    "value": null
+  },
+  {
+    "test": "String",
+    "status": "PASS",
+    "http_status": 422,
+    "value": null
+  },
+  {
+    "test": "Boolean",
+    "status": "PASS",
+    "http_status": 422,
+    "value": null
+  },
+  {
+    "test": "Unknown field",
+    "status": "PASS",
+    "http_status": 422,
+    "value": null
+  },
+  {
+    "test": "Nonobject",
+    "status": "PASS",
+    "http_status": 422,
+    "value": null
+  },
+  {
+    "test": "growth low",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 123.55841154768571
+  },
+  {
+    "test": "growth high",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 153.08589503461027
+  },
+  {
+    "test": "margin low",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 132.28447398611843
+  },
+  {
+    "test": "margin high",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 142.8623675989597
+  },
+  {
+    "test": "sbc low",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 148.0015729411252
+  },
+  {
+    "test": "sbc high",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 127.14526864395305
+  },
+  {
+    "test": "wacc low",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 289.7524971313373
+  },
+  {
+    "test": "wacc high",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 95.82743796648046
+  },
+  {
+    "test": "terminal low",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 120.79933569727962
+  },
+  {
+    "test": "terminal high",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 162.19250554976725
+  },
+  {
+    "test": "Combined endpoints low,low,low,low,low",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 195.58018968417787
+  },
+  {
+    "test": "Combined endpoints low,low,low,low,high",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 451.95649786104303
+  },
+  {
+    "test": "Combined endpoints low,low,low,high,low",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 83.62211732840522
+  },
+  {
+    "test": "Combined endpoints low,low,low,high,high",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 97.83528258895383
+  },
+  {
+    "test": "Combined endpoints low,low,high,low,low",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 164.93987535091918
+  },
+  {
+    "test": "Combined endpoints low,low,high,low,high",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 377.7446495011949
+  },
+  {
+    "test": "Combined endpoints low,low,high,high,low",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 72.89569232518964
+  },
+  {
+    "test": "Combined endpoints low,low,high,high,high",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 84.85804826001413
+  },
+  {
+    "test": "Combined endpoints low,high,low,low,low",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 211.04622658939155
+  },
+  {
+    "test": "Combined endpoints low,high,low,low,high",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 489.2083017795513
+  },
+  {
+    "test": "Combined endpoints low,high,low,high,low",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 89.13120956859744
+  },
+  {
+    "test": "Combined endpoints low,high,low,high,high",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 104.46977949200809
+  },
+  {
+    "test": "Combined endpoints low,high,high,low,low",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 180.40591225613292
+  },
+  {
+    "test": "Combined endpoints low,high,high,low,high",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 414.99645341970336
+  },
+  {
+    "test": "Combined endpoints low,high,high,high,low",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 78.40478456538185
+  },
+  {
+    "test": "Combined endpoints low,high,high,high,high",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 91.4925451630684
+  },
+  {
+    "test": "Combined endpoints high,low,low,low,low",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 246.62609623768802
+  },
+  {
+    "test": "Combined endpoints high,low,low,low,high",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 579.7449133434792
+  },
+  {
+    "test": "Combined endpoints high,low,low,high,low",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 101.08048981759167
+  },
+  {
+    "test": "Combined endpoints high,low,low,high,high",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 119.54815881786757
+  },
+  {
+    "test": "Combined endpoints high,low,high,low,low",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 207.22673088745879
+  },
+  {
+    "test": "Combined endpoints high,low,high,low,high",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 483.7315106914522
+  },
+  {
+    "test": "Combined endpoints high,low,high,high,low",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 87.52199201811095
+  },
+  {
+    "test": "Combined endpoints high,low,high,high,high",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 103.06510474621116
+  },
+  {
+    "test": "Combined endpoints high,high,low,low,low",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 266.47938210272883
+  },
+  {
+    "test": "Combined endpoints high,high,low,low,high",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 627.9052178594187
+  },
+  {
+    "test": "Combined endpoints high,high,low,high,low",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 108.0133419072581
+  },
+  {
+    "test": "Combined endpoints high,high,low,high,high",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 127.94328904362185
+  },
+  {
+    "test": "Combined endpoints high,high,high,low,low",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 227.0800167524995
+  },
+  {
+    "test": "Combined endpoints high,high,high,low,high",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 531.8918152073918
+  },
+  {
+    "test": "Combined endpoints high,high,high,high,low",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 94.45484410777738
+  },
+  {
+    "test": "Combined endpoints high,high,high,high,high",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 111.46023497196543
+  },
+  {
+    "test": "Final recovery",
+    "status": "PASS",
+    "http_status": 200,
+    "value": 137.5734207925391
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "driver": "wacc",
+    "solved_input": 0.07784922084538266,
+    "value": 149.4200000096965,
+    "shift": false,
+    "status": "SOLVED"
+  },
+  {
+    "driver": "terminal_growth",
+    "solved_input": 0.0353366843936965,
+    "value": 149.42000000665485,
+    "shift": false,
+    "status": "SOLVED"
+  },
+  {
+    "driver": "growth",
+    "solved_input": 0.023176575014367692,
+    "value": 149.4200000035443,
+    "shift": true,
+    "status": "SOLVED"
+  }
+]

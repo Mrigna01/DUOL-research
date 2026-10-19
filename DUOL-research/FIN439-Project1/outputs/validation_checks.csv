@@ -1,0 +1,71 @@
+test,status,detail
+Lab 09 independent known-answer,PASS,291.7516662807367
+Lab valuation lineage explicitly differs,PASS,Original Lab10 140.18321713393624; corrected engine 137.5734207925391; not a single-factor attribution
+Reject corrupted fcff,PASS,Deliberately changed first forecast line by 100.0m; required refusal
+Reject corrupted cash,PASS,Deliberately changed first forecast line by 10.0m; required refusal
+Reject corrupted ar,PASS,Deliberately changed first forecast line by 5.0m; required refusal
+Reject corrupted period_cfo,PASS,Deliberately changed first forecast line by 1.0m; required refusal
+Reject corrupted ppe,PASS,Deliberately changed first forecast line by 2.0m; required refusal
+Reject corrupted period_repurchase_settlement,PASS,Deliberately changed first forecast line by 0.675m; required refusal
+Reject corrupted period_withholding,PASS,Deliberately changed first forecast line by 1.0m; required refusal
+Invalid assumption terminal_growth=0.08276376244240655,PASS,Valuation must not be returned
+Invalid assumption terminal_growth=0.09276376244240654,PASS,Valuation must not be returned
+Invalid assumption diluted_shares=0,PASS,Valuation must not be returned
+Invalid assumption minimum_cash=100000,PASS,Valuation must not be returned
+Invalid assumption growth=nan,PASS,Valuation must not be returned
+Invalid assumption growth=[0.1],PASS,Valuation must not be returned
+Invalid assumption growth=True,PASS,Valuation must not be returned
+Invalid assumption buybacks=-1,PASS,Valuation must not be returned
+"Invalid assumption wacc=[0.08, 0.09, 0.09, 0.09, 0.09]",PASS,Valuation must not be returned
+Invalid assumption gross_margin=1.1,PASS,Valuation must not be returned
+Growth grid monotonicity at WACC 0.05276376244240655,PASS,Value increases as perpetual growth increases in this bounded grid
+Growth grid monotonicity at WACC 0.06276376244240654,PASS,Value increases as perpetual growth increases in this bounded grid
+Growth grid monotonicity at WACC 0.07276376244240655,PASS,Value increases as perpetual growth increases in this bounded grid
+Growth grid monotonicity at WACC 0.08276376244240655,PASS,Value increases as perpetual growth increases in this bounded grid
+Growth grid monotonicity at WACC 0.09276376244240654,PASS,Value increases as perpetual growth increases in this bounded grid
+Growth grid monotonicity at WACC 0.10276376244240655,PASS,Value increases as perpetual growth increases in this bounded grid
+Growth grid monotonicity at WACC 0.11276376244240655,PASS,Value increases as perpetual growth increases in this bounded grid
+WACC grid monotonicity at g 0.02,PASS,Value decreases as discount rate increases
+WACC grid monotonicity at g 0.025,PASS,Value decreases as discount rate increases
+WACC grid monotonicity at g 0.03,PASS,Value decreases as discount rate increases
+WACC grid monotonicity at g 0.035,PASS,Value decreases as discount rate increases
+WACC grid monotonicity at g 0.04,PASS,Value decreases as discount rate increases
+Dated cash agrees with year-end rollback,PASS,1228.0555163630725
+Repurchase recognition versus settlement,PASS,1.622m new trades plus 0.675m opening payable; settlement assumption disclosed
+Financing payable excluded from operating NWC,PASS,Opening operating NWC excludes repurchase payable
+Settlement does not reduce equity twice,PASS,June equity already reflects unsettled purchases
+Reject economic FCFF as cash accumulation,PASS,Old SBC-expensed cash proxy fails statement-based reconciliation
+Independent DCF sum,PASS,5611.24491781866
+Causal case finite Low,PASS,114.20002291876324
+Causal case finite Base,PASS,137.5734207925391
+Causal case finite High,PASS,165.01216059762007
+Causal case ordering,PASS,Low < Base < High
+Independent dated cash bridge,PASS,1363.7275163630725
+Reject future cash double-count,PASS,Adding 3308.1603227018863m of terminal cash violates the independent bridge
+Per-share bridge,PASS,Equity / positive diluted shares
+Automated direction growth,PASS,Shock 0.01 decimal; expected 1; actual delta/share 4.998709438857617
+Automated direction gross_margin,PASS,Shock 0.01 decimal; expected 1; actual delta/share 5.288946806420597
+Automated direction sbc_ratio,PASS,Shock 0.01 decimal; expected -1; actual delta/share -5.214076074293047
+Automated direction wacc,PASS,Shock 0.01 decimal; expected -1; actual delta/share -18.365080365665946
+Automated direction terminal_growth,PASS,Shock 0.005 decimal; expected 1; actual delta/share 11.020956456027136
+Exact restored base,PASS,No shared input mutation
+Equal growth-channel shocks are identical,PASS,Naming a shock AI does not create an independent economic mechanism
+Independent XBRL source revenue,PASS,"Retained filing facts vs working CSV: [1037.589, 1037.589, 1037.589]"
+Independent XBRL source ebit,PASS,Retained filing facts vs working CSV: [135.57]
+Independent XBRL source net_income,PASS,"Retained filing facts vs working CSV: [414.065, 414.065, 414.065]"
+Independent XBRL source cfo,PASS,Retained filing facts vs working CSV: [387.823]
+Independent XBRL source sbc,PASS,Retained filing facts vs working CSV: [137.437]
+Repurchase primary-source TreasuryStockValueAcquiredCostMethod,PASS,[70.278]
+Repurchase primary-source PaymentsForRepurchaseOfCommonStock,PASS,[69.603]
+Reported FCF definition,PASS,Includes software AND PPE investment; not an FCFF substitution
+Normalized earnings bridge,PASS,137.40876000000003
+Multiple arithmetic EV / FY2025 revenue,PASS,Same dated diluted convention; denominator 1037.589
+Multiple arithmetic EV / FY2025 EBITDA; SBC retained,PASS,Same dated diluted convention; denominator 149.96099999999998
+Multiple arithmetic Equity / reported earnings,PASS,Same dated diluted convention; denominator 414.065
+Multiple arithmetic Equity / normalized earnings,PASS,Same dated diluted convention; denominator 137.40876
+EBITDA retains SBC,PASS,GAAP EBIT plus D&A only
+Peer GAAP loss exclusion,PASS,Annual GAAP negative EPS; not adjusted EPS
+Peer entity-scope exclusion,PASS,UDMY converted; combined COUR numerator cannot use old standalone denominator
+Reverse DCF wacc,PASS,"{'driver': 'wacc', 'solved_input': 0.07784922084538266, 'value': 149.4200000096965, 'shift': False, 'status': 'SOLVED'}"
+Reverse DCF terminal_growth,PASS,"{'driver': 'terminal_growth', 'solved_input': 0.0353366843936965, 'value': 149.42000000665485, 'shift': False, 'status': 'SOLVED'}"
+Reverse DCF growth,PASS,"{'driver': 'growth', 'solved_input': 0.023176575014367692, 'value': 149.4200000035443, 'shift': True, 'status': 'SOLVED'}"
